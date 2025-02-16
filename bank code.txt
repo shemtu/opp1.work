@@ -1,5 +1,8 @@
 name; shem kiptum
 admission; bscit-05-0054/2024
+
+#include <iostream>
+using namespace std;
  
 class BankAccount {
 private:
@@ -37,3 +40,13 @@ public:
         }
     }
 };
+
+int main() {
+ BankAccount myAccount("John Doe",1000.50);
+cout<<"Account Holder:" <<
+myAccount.getAccountHolder() << end;
+Cout<< "Balance: $" <<
+myAccount.getbalance()<< end;
+
+Return 0;
+}
