@@ -1,3 +1,6 @@
+name: shem kiptum
+admission: BSCIT-05-0054/2024
+
 #include <iostream>
 #include <string>
 using namespace std;
